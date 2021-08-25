@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+#map{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+div ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+ol li{
+    margin: 10px;
+}
+
+#coordenadas{
+    visibility: hidden;
+}
